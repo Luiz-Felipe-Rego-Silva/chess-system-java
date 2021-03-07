@@ -8,6 +8,7 @@ public class ChessMatch {
 	
 	public ChessMatch() {
 		board = new Board(8, 8);
+		initialSetup();
 	}
 	
 	public ChessPiece[][] getPieces(){
@@ -18,6 +19,12 @@ public class ChessMatch {
 				mat[i][j] = (ChessPiece) board.piece(i, j);
 		
 		return mat;
+	}
+	
+	private void initialSetup() {
+		
+		
+		
 	}
 	
 
